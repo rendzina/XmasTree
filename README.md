@@ -30,7 +30,7 @@ This hardware is well designed - having removed the tree parts from the circuit 
  ## Testing
  To test the Xmas Tree board, in the same folder as the script *`tree.py`* supplied by Pi Hut, run the Python shell:
  ```
- Python 3.7.3 (default, Apr  3 2019, 05:39:12)
+ Python 3.7.3
  >>> from tree import RGBXmasTree
  >>> tree = RGBXmasTree()
  >>> tree[3].color = (0, 1, 0)
