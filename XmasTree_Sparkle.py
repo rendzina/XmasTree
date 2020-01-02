@@ -33,11 +33,10 @@ led.pop(TOP_LED)
 
 # main loop
 try:
+    tree[TOP_LED].color = (1, 1, 1) # Set top LED to white
     while True:
         # Select one of the following two lines:
         tree[choice(led)].color = random_color() # set random LEDs to random colours
         #tree.color = random_color() # alternately set all LEDs to same random colour
-        #
-        tree[TOP_LED].color = (1, 1, 1) # Set top LED to white
 except KeyboardInterrupt:
     tree.close()
