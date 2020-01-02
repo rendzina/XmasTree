@@ -1,26 +1,29 @@
 # XmasTree
- Code to run different LED patterns using the fantastic Pi Hut 3D Xmas Tree on a Raspberry Pi
+ Code to run different LED patterns using the fantastic [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi) on a Raspberry Pi
 
  ## Project
  This project is to use a Raspberry Pi to run on an attached [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi), and for it to run unattended (no attached keyboard/mouse), changing the LED lights on the Xmas Tree on an attached Raspberry Pi.
 
- The project uses the [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi) with a Raspberry Pi Zero (any model Pi would do), and based on the [Pi Hut code](https://github.com/ThePiHut/rgbxmastree#rgbxmastree).
+ The project uses a Raspberry Pi (we used a Pi Zero, although any model Pi would do), and based on the [Pi Hut example source code](https://github.com/ThePiHut/rgbxmastree#rgbxmastree).
+
+ ## Software
+ The script *`tree.py`* supplied by Pi Hut is used, and must be present in the same directory/folder as the Python scripts here. The reason is that the class 'RGBXmasTree' is imported from it:
 
  ## Hardware
  The following hardware is used:
  - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
-This hardware is well designed - having removed the tree parts from the circuit board (clippers will do this, we used a dremmel fine saw). The parts then all push fit together.
+This hardware is well designed - having removed the tree parts from the circuit board (clippers will do this, we used a dremmel fine saw). The parts then all push fit together - no soldering is required.
 
  ## Code
  A variety of code samples are given:
  - *'XmasTree_Colours.py'* Set ALL LEDs to same colour using list, set top LED white
  - *'XmasTree_Colours.py'* Set all LEDs to random colour using list, set top LED white
 
- There are 25 LEDs on the board, numbered 0-24, one of these relates to the LED on the top of the tree. Experimentation revealed this to be LRD number 21. A variable was set up to represent this to allow it to be coloured separately.
+ There are 25 WS2812 NeoPixel RGB LEDs on the board, numbered 0-24, one of these is the LED on the top of the tree. Experimentation revealed this to be LED number 21. A variable was set up to represent this to allow it to be coloured separately.
 
  ## Instructions
- The Xmas Tree is fitted to the Raspberry Pi - the orientation of the GPIO plug is critical and MUST be fitted correctly or else the voltage will be applied to the data line due to the design (not a good idea!)
+ The Xmas Tree is fitted to the Raspberry Pi, via the GPIO bus. The orientation of the GPIO plug is critical and MUST be fitted correctly or else voltage will be applied to the data line due to the PCB design (not a good idea!)
 
  The Pi was set up to run in 'headless' mode (no monitor/keyboard/mouse) - to do this see our [GeoThread blog](http://www.geothread.net/?s=headless), allowing a remote laptop to ssh in to the Pi, and using [FileZilla](https://filezilla-project.org) to copy files over to it.
 
