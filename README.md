@@ -40,7 +40,7 @@ This hardware is well designed - having removed the tree parts from the circuit 
 
  Next, to test the code, it was run remotely via ssh from a laptop running the python script, the code was located in the home folder *'/home/pi'*, e.g.:
  ```
- > python3 XmasTree_Colours.py
+ > python3 XmasTree_Sparkle.py
  ```
 
  ## Operation
@@ -64,3 +64,4 @@ sudo crontab -e
 
  30 23 * * * /sbin/shutdown -h now
 ```
+Now the Pi can be rebooted.
