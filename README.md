@@ -2,7 +2,7 @@
  Code to run different LED patterns using the fantastic Pi Hut 3D Xmas Tree on a Raspberry Pi
 
  ## Project
- This project is to use a Raspberry Pi to run the attached 3D Xmas Teee from Pi Hut, and for it to run unattended (no attached keyboard/mouse), changing the LED lights on the Xmas Tree on an attached Raspberry Pi.
+ This project is to use a Raspberry Pi to run on an attached [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi), and for it to run unattended (no attached keyboard/mouse), changing the LED lights on the Xmas Tree on an attached Raspberry Pi.
 
  The project uses the [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi) with a Raspberry Pi Zero (any model Pi would do), and based on the [Pi Hut code](https://github.com/ThePiHut/rgbxmastree#rgbxmastree).
 
