@@ -51,7 +51,7 @@ This hardware is well designed - having removed the tree parts from the circuit 
  [Desktop Entry]
  Type=Application
  Name=3D Xmas Tree
- Exec=/usr/bin/python3 /home/pi/XmasTree_Colours.py
+ Exec=/usr/bin/python3 /home/pi/XmasTree_Sparkle.py
  ```
 
  ## Observations
