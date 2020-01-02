@@ -46,6 +46,7 @@ This hardware is well designed - having removed the tree parts from the circuit 
  ## Operation
   To make the code run unattended on the Pi, there needed to be a means to start the programme automatically on boot. The best means to do this was found to be to use an autostart desktop file. A file was therefore created thus:
  ```
+ > touch /home/pi/.config/autostart/XmasTree.desktop
  > nano /home/pi/.config/autostart/XmasTree.desktop
 
  [Desktop Entry]

@@ -12,7 +12,7 @@ from random import random
 seed(1)
 
 # Set to LED number for top of Xmas Tree. LEDs are numbered 0-24.
-TOP_LED = 3
+TOP_LED = 21
 
 # Instance the  RGBXmasTree
 tree = RGBXmasTree(brightness=0.05)

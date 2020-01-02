@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# XmasTree_Sparkle.py
 # Set all LEDs to random colour using list, set top LED white
 from tree import RGBXmasTree
 from colorzero import Color
@@ -12,7 +13,7 @@ from random import choice
 seed(1)
 
 # Set to LED number for top of Xmas Tree. LEDs are numbered 0-24.
-TOP_LED = 3
+TOP_LED = 21
 
 # Instance the  RGBXmasTree
 tree = RGBXmasTree(brightness=0.05)
