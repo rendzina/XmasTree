@@ -1,7 +1,7 @@
 # XmasTree
  Code to run different LED patterns using the fantastic [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi) on a Raspberry Pi
 
- ![alt text](https://github.com/rendzina/XmasTree/images/Xmas_Tree.gif "Xmas Tree")
+ ![alt text](https://github.com/rendzina/XmasTree/blob/master/images/Xmas_Tree.gif "Xmas Tree")
 
  ## Project
  This project is to use a Raspberry Pi to run on an attached [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi), and for it to run unattended (no attached keyboard/mouse), changing the LED lights on the Xmas Tree on an attached Raspberry Pi.
