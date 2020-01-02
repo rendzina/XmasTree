@@ -22,8 +22,8 @@ tree = RGBXmasTree(brightness=0.05)
 def random_color():
     # skew to red end to  prevent 'washed out' colours
     r = random()
-    g = random()*.2 # between 0 and 0.2, makes it 5 times more likely to be red
-    b = random()*.2
+    g = 1/(5*random()+1) # between 0 and 0.2, makes it 5 times more likely to be red
+    b = 1/(5*random()+1)
     return (r, g, b)
 
 # Create a list of all numberes for LEDs, excepting top one
