@@ -15,12 +15,14 @@
  The following hardware is used:
  - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
-This hardware is well designed - having removed the tree parts from the circuit board (clippers will do this, we used a dremmel fine saw). The parts then all push fit together - no soldering is required.
+This hardware is well designed - having removed the tree parts carefully from the circuit board ad without twisting them (clippers will do this, we used a dremmel fine saw). The parts then all push fit together - no soldering is required.
 
  ## Code
  A variety of code samples are given:
- - *[XmasTree_Colours.py](./XmasTree_Colours.py)* Set ALL LEDs to same colour using list, set top LED white
- - *[XmasTree_Sparkle.py](./XmasTree_Sparkle.py)* Set random LEDs to random colours, set top LED white
+ - *[XmasTree_Colours.py](./XmasTree_Colours.py)* Set all LEDs to same but random colours cycling through using a list of colours, setting the top LED to white
+ - *[XmasTree_Sparkle.py](./XmasTree_Sparkle.py)* Set random LEDs to random colours, setting the top LED to white
+
+ Colours in XmasTree_Colours.py can be added to the list, with colour names as described at (https://www.rapidtables.com/web/color/RGB_Color.html#color-table).
 
  There are 25 WS2812 NeoPixel RGB LEDs on the board, numbered 0-24, one of these is the LED on the top of the tree. Experimentation revealed this to be LED number 3. A variable was set up to represent this to allow it to be coloured separately (set as number 3 in code to refer to the list element holding the number 21).
 
