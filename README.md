@@ -17,8 +17,8 @@ This hardware is well designed - having removed the tree parts from the circuit 
 
  ## Code
  A variety of code samples are given:
- - *[XmasTree_Colours.py](../blob/master/XmasTree_Colours.py)* Set ALL LEDs to same colour using list, set top LED white
- - *[XmasTree_Sparkle.py](../blob/master/XmasTree_Sparkle.py)* Set random LEDs to random colours, set top LED white
+ - *[XmasTree_Colours.py](./blob/master/XmasTree_Colours.py)* Set ALL LEDs to same colour using list, set top LED white
+ - *[XmasTree_Sparkle.py](./blob/master/XmasTree_Sparkle.py)* Set random LEDs to random colours, set top LED white
 
  There are 25 WS2812 NeoPixel RGB LEDs on the board, numbered 0-24, one of these is the LED on the top of the tree. Experimentation revealed this to be LED number 21. A variable was set up to represent this to allow it to be coloured separately.
 
