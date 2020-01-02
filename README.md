@@ -28,7 +28,17 @@ This hardware is well designed - having removed the tree parts from the circuit 
  The Pi was set up to run in 'headless' mode (no monitor/keyboard/mouse) - to do this see our [GeoThread blog](http://www.geothread.net/?s=headless), allowing a remote laptop to ssh in to the Pi, and using [FileZilla](https://filezilla-project.org) to copy files over to it.
 
  ## Testing
- To test the code, it was run remotely via ssh from a laptop running the python script, the code was located in the home folder *'/home/pi'*, e.g.:
+ To test the Xmas Tree board, in the same folder as the script *`tree.py`* supplied by Pi Hut, run the Python shell:
+ ```
+ Python 3.7.3 (default, Apr  3 2019, 05:39:12)
+ >>> from tree import RGBXmasTree
+ >>> tree = RGBXmasTree()
+ >>> tree[3].color = (0, 1, 0)
+ >>> tree.off()
+ ```
+ Respectively, this sets up the tree, turns on the top LED (3) green, then turns all the LEDs off.
+
+ Next, to test the code, it was run remotely via ssh from a laptop running the python script, the code was located in the home folder *'/home/pi'*, e.g.:
  ```
  > python3 XmasTree_Colours.py
  ```
