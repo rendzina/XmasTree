@@ -23,12 +23,13 @@ def random_color():
     v = 100
     hsv = Color.from_hsv(h,s,v)
     rgb = hsv.rgb
-    return (rgb)
+    #
     # or for more subtle colours, use the rgb model
     #r = round(random(),1)
     #g = round(random(),1)
     #b = round(random(),1)
-    #return (r, g, b)
+    #rgb = Color.from_rgb(r,g,b).rgb
+    return (rgb)
 
 # Create a list of all numberes for LEDs, excepting top one
 led = list(range(25)[::-1])
