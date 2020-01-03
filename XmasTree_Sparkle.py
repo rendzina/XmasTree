@@ -17,11 +17,18 @@ tree = RGBXmasTree(brightness=0.05)
 
 # Function to return a random colour
 def random_color():
-    r = round(random(),1)
-    g = round(random(),1)
-    b = round(random(),1)
-    #print(r,g,b)
-    return (r, g, b)
+    # For bright colours, use the hsv model
+    h = 360 * random()
+    s = 100
+    v = 100
+    hsv = Color.from_hsv(h,s,v)
+    rgb = hsv.rgb
+    return (rgb)
+    # or for more subtle colours, use the rgb model
+    #r = round(random(),1)
+    #g = round(random(),1)
+    #b = round(random(),1)
+    #return (r, g, b)
 
 # Create a list of all numberes for LEDs, excepting top one
 led = list(range(25)[::-1])
