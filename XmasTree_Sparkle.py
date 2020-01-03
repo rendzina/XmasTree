@@ -25,9 +25,9 @@ def random_color():
     rgb = hsv.rgb
     #
     # or for more subtle colours, use the rgb model
-    #r = round(random(),1)
-    #g = round(random(),1)
-    #b = round(random(),1)
+    #r = random()
+    #g = random()
+    #b = random()
     #rgb = Color.from_rgb(r,g,b).rgb
     return (rgb)
 
