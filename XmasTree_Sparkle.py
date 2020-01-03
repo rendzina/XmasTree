@@ -17,14 +17,14 @@ tree = RGBXmasTree(brightness=0.05)
 
 # Function to return a random colour
 def random_color():
-    # For bright colours, use the hsv model
+    # You can either use the hsv model..
     h = random()
     s = 1
     v = 1
     hsv = Color.from_hsv(h,s,v) # takes values 0-1
     rgb = hsv.rgb
     #
-    # or for more subtle colours, use the rgb model
+    # ..or use the rgb model
     #r = random()
     #g = random()
     #b = random()
