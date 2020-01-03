@@ -6,11 +6,8 @@ from colorzero import Color
 from time import sleep
 
 # generate random floating point values
-from random import seed
 from random import random
 from random import choice
-# seed random number generator
-seed(1)
 
 # Set to LED number for top of Xmas Tree. LEDs are numbered 0-24.
 TOP_LED = 3
@@ -21,14 +18,15 @@ tree = RGBXmasTree(brightness=0.05)
 # Function to return a random colour
 def random_color():
     # skew to red end to  prevent 'washed out' colours
-    r = random() * 0.2 # between 0 and 0.2, makes it 5 times more likely to be red
-    g = 1/(5*random()+1) # Skew to higher values
-    b = 1/(5*random()+1)
+    r = round(random() * 0.2,1) # between 0 and 0.2, makes it 5 times more likely to be red
+    g = round(1/(5*random()+1),1) # Skew to higher values
+    b = round(1/(5*random()+1),1)
+    #print(r,g,b)
     return (r, g, b)
 
 # Create a list of all numberes for LEDs, excepting top one
 led = list(range(25)[::-1])
-led.pop(TOP_LED)
+led.pop(len(led)-TOP_LED-1)
 #print (*led) # just check it removed top number
 
 # main loop
