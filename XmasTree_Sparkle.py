@@ -17,10 +17,9 @@ tree = RGBXmasTree(brightness=0.05)
 
 # Function to return a random colour
 def random_color():
-    # skew to red end to  prevent 'washed out' colours
-    r = round(random() * 0.2,1) # between 0 and 0.2, makes it 5 times more likely to be red
-    g = round(1/(5*random()+1),1) # Skew to higher values
-    b = round(1/(5*random()+1),1)
+    r = round(random(),1)
+    g = round(random(),1)
+    b = round(random(),1)
     #print(r,g,b)
     return (r, g, b)
 
