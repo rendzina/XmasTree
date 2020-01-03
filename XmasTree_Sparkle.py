@@ -29,6 +29,7 @@ def random_color():
     #g = random()
     #b = random()
     #rgb = Color.from_rgb(r,g,b).rgb
+    #
     return (rgb)
 
 # Create a list of all numberes for LEDs, excepting top one
