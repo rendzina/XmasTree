@@ -18,10 +18,10 @@ tree = RGBXmasTree(brightness=0.05)
 # Function to return a random colour
 def random_color():
     # For bright colours, use the hsv model
-    h = 360 * random()
-    s = 100
-    v = 100
-    hsv = Color.from_hsv(h,s,v)
+    h = (360 * random())/360
+    s = 1
+    v = 1
+    hsv = Color.from_hsv(h,s,v) # takes values 0-1
     rgb = hsv.rgb
     #
     # or for more subtle colours, use the rgb model
