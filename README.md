@@ -15,7 +15,7 @@
  The following hardware is used:
  - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
-This hardware is well designed - having removed the tree parts carefully from the circuit board ad without twisting them (clippers will do this, we used a dremmel fine saw). The parts then all push fit together - no soldering is required.
+This hardware is well designed - having removed the tree parts carefully from the circuit board and without twisting them (clippers will do this, we used a small dremmel fine circular saw). The parts then all just push fit together - no soldering is required.
 
  ## Code
  A variety of code samples are given:
