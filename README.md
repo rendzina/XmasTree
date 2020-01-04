@@ -24,9 +24,9 @@ This hardware is well designed - having removed the tree parts carefully from th
 
  Colours in XmasTree_Colours.py can be added to the list, with colour names as described at (https://www.rapidtables.com/web/color/RGB_Color.html#color-table).
 
- Colours in the XmasTree_Sparkle.py are generated randomly and can use either the HSV model for brighter, more vibrant colours, or the RGB model for more subtler colours (comment out one of these). 
+ Colours in the XmasTree_Sparkle.py are generated randomly and can use either the HSV model for brighter, more vibrant colours, or the RGB model for more subtler colours (comment out one of these).
 
- There are 25 WS2812 NeoPixel RGB LEDs on the board, numbered 0-24, one of these is the LED on the top of the tree. Experimentation revealed this to be LED number 3. A variable was set up to represent this to allow it to be coloured separately (set as number 3 in code to refer to the list element holding the number 21).
+ There are 25 APA102 RGB LEDs on the board, numbered 0-24, one of these is the LED on the top of the tree. Experimentation revealed this to be LED number 3. A variable was set up to represent this to allow it to be coloured separately (set as number 3 in code to refer to the list element holding the number 21).
 
  ## Instructions
  The Xmas Tree is fitted to the Raspberry Pi, via the GPIO bus. The orientation of the GPIO plug is critical and MUST be fitted correctly or else voltage will be applied to the data line due to the PCB design (not a good idea!)
