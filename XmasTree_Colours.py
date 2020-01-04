@@ -18,7 +18,7 @@ TOP_LED = 3
 tree = RGBXmasTree(brightness=0.05)
 
 colors = [Color('cyan'), Color('yellow'), Color('purple'), Color('red'), Color('green'),
-  Color('blue'), Color('magenta')] # add more if you like
+  Color('blue'), Color('magenta')] # add more if you like, see https://www.rapidtables.com/web/color/RGB_Color.html#color-table.
 
 # main loop
 try:
