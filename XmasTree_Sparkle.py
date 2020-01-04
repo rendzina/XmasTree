@@ -32,7 +32,7 @@ def random_color():
     #
     return (rgb)
 
-# Create a list of all numberes for LEDs, excepting top one
+# Create a list of all numbers for LEDs, excepting top one
 led = list(range(25)[::-1])
 led.pop(len(led)-TOP_LED-1)
 #print (*led) # just check it removed top number
