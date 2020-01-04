@@ -20,11 +20,11 @@ This hardware is well designed - having removed the tree parts carefully from th
  ## Code
  A variety of code samples are given:
  - *[XmasTree_Colours.py](./XmasTree_Colours.py)* Set all LEDs to same but random colours cycling through using a list of colours, setting the top LED to white
- - *[XmasTree_Sparkle.py](./XmasTree_Sparkle.py)* Set random LEDs to random colours, setting the top LED to white
+ - *[XmasTree_Sparkle.py](./XmasTree_Sparkle.py)* Set random LEDs to random colours, setting the top LED to white (this was the preferred code!)
 
  Colours in XmasTree_Colours.py can be added to the list, with colour names as described at (https://www.rapidtables.com/web/color/RGB_Color.html#color-table).
 
- Colours in the XmasTree_Sparkle.py are generated randomly and can use either the HSV model for brighter, more vibrant colours, or the RGB model for more subtler colours (comment out one of these).
+ Colours in the XmasTree_Sparkle.py are generated randomly and can use either the HSV model, or the RGB model (comment out one of these).
 
  There are 25 APA102 RGB LEDs on the board, numbered 0-24, one of these is the LED on the top of the tree. Experimentation revealed this to be LED number 3. A variable was set up to represent this to allow it to be coloured separately (set as number 3 in code to refer to the list element holding the number 21).
 
