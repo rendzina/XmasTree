@@ -4,7 +4,7 @@
  ![alt text](https://github.com/rendzina/XmasTree/blob/master/images/Xmas_Tree.gif "Xmas Tree")
 
  ## Project
- This project is to use a Raspberry Pi to run on an attached [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi), and for it to run unattended (no attached keyboard/mouse), changing the LED lights on the Xmas Tree on an attached Raspberry Pi.
+ This project is to use a Raspberry Pi to run on an attached [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi), and for it to run unattended (no attached keyboard/mouse), changing the LED lights on the Xmas Tree on an attached headless Raspberry Pi.
 
  The project uses a Raspberry Pi (we used a Pi Zero, although any model Pi would do), and based on the [Pi Hut example source code](https://github.com/ThePiHut/rgbxmastree#rgbxmastree).
 
