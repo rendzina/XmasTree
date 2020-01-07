@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # XmasTree_WhichLEDIsWhich.py
-# Help identify which LED is which number - to aid development of patterns
+# Helps identify which LED is which number - to aid development of patterns
+# Running this code produces a grid window with 25 buttons - click each number
+# to light up the corresponding LED.
 from tree import RGBXmasTree
 from tkinter import *
 from functools import partial
