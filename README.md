@@ -21,6 +21,7 @@ This hardware is well designed - having removed the tree parts carefully from th
  A variety of code samples are given:
  - *[XmasTree_Colours.py](./XmasTree_Colours.py)* Set all LEDs to same but random colours cycling through using a list of colours, setting the top LED to white
  - *[XmasTree_Sparkle.py](./XmasTree_Sparkle.py)* Set random LEDs to random colours, setting the top LED to white (this was the preferred code!)
+ - *[XmasTree_Swirl.py](./XmasTree_Swirl.py)* run through three separate patterns - spiral, layers, rotate
  - *[XmasTree_WhichLEDIsWhich.py](./XmasTree_WhichLEDIsWhich.py)* Helps identify which LED is which number - to aid development of patterns. Running this code produces a grid window with 25 buttons - click each number to light up the corresponding LED.
 
  Colours in XmasTree_Colours.py can be added to the list, with colour names as described at (https://www.rapidtables.com/web/color/RGB_Color.html#color-table).
