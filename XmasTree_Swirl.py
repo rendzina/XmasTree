@@ -31,7 +31,10 @@ def random_color():
 
 def Spiral():
     length = len(SPIRAL)
-    for number, val in enumerate(SPIRAL):
+    for number, val in enumerate(SPIRAL): # up from bottom
+      print("S",number,number/length,val)
+      tree[val].color = Color.from_hsv(0.8,number/length,1).rgb
+    for number, val in reversed(list(enumerate(SPIRAL))): # down from top
       print("S",number,number/length,val)
       tree[val].color = Color.from_hsv(0.8,number/length,1).rgb
 
