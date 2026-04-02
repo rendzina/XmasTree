@@ -1,5 +1,5 @@
 # XmasTree
- Code to run different LED patterns using the fantastic [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi) on a Raspberry Pi
+ Code to run all the different LED patterns using the fantastic [3D RGB Xmas Tree for Raspberry Pi](https://thepihut.com/products/3d-rgb-xmas-tree-for-raspberry-pi) on a Raspberry Pi
 
  ![alt text](https://github.com/rendzina/XmasTree/blob/master/images/Xmas_Tree.gif "Xmas Tree")
 
